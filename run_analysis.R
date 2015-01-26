@@ -24,7 +24,6 @@ activityList <- read.table("activity_labels.txt",header=FALSE,sep=" ",col.names=
 ### 
 
 featureList <- read.table("features.txt",header=FALSE,sep=" ",col.names=c('Measure_Code','Measurement_Name'),stringsAsFactor=FALSE)
-featureList
 
 ### 
 ### Compiling the test data
